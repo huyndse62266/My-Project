@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Login Page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body{
+                background: slategray;
+            }
+            #title {
+                margin-left: 130px;
+                margin-top: 100px;
+            }
+            #loginForm {
+                height: 180px;
+                width: 400px;
+                border: 1px;
+                background: white;
+                margin-top: 190px;
+                margin-left: 470px;
+                margin-right: 350px;
+            }
+            #text{
+                margin-left: 70px;
+            }
+            #smBtn{
+                margin-left: 100px;
+                margin-top: 10px;
+            }
+            #rsBtn{
+                margin-left: 100px;
+                margin-top: 10px;
+            }
+        </style>
+    </head>
+    
+    <body>
+        
+        
+       
+        <div id="loginForm">
+            <div id="title">
+                <font color="red">
+                    <h1>Login Page</h1>
+                </font>   
+            </div>
+            <form action="login" method="POST">
+                <div id="text">
+                    Username <input type="text" name="txtUsername" value="" /> <br/>
+                    Password <input type="password" name="txtPassword" value="" /><br/>
+                </div>    
+                
+                <input type="submit" value="Login" name="btAction" id="smBtn" />
+                <input type="reset" value="Reset" id="rsBtn" />
+            </form>    
+        </div>
+
+    </body>
+</html>
